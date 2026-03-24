@@ -18,7 +18,7 @@
 
       "items": {
 
-        "$ref": "../schemas/Product/PricingLogicAlgorithm.schema.json#PricingLogicAlgorithm"
+        "$ref": "https://raw.githubusercontent.com/DOME-Marketplace/tmf-api/refs/heads/main/schemas/Product/PricingLogicAlgorithm.schema.json"
 
       },
 
@@ -34,7 +34,7 @@
 
       "items": {
 
-        "$ref": "../schemas/EngagedParty/RelatedParty.schema.json#RelatedParty"
+        "$ref": "https://raw.githubusercontent.com/DOME-Marketplace/tmf-api/refs/heads/main/schemas/EngagedParty/RelatedParty.schema.json"
 
       }
 
