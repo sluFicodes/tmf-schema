@@ -3,7 +3,7 @@
   "$id": "#ExternallyBilled",
   "title": "ExternallyBilled",
   "description": "DOME extensions for TMForum Product Offerings that are billed through a third party billing engine",
-  "unevaluatedProperties": false,
+  "additionalProperties": false,
   "allOf": [
     {
       "$ref": "https://raw.githubusercontent.com/DOME-Marketplace/tmf-api/refs/heads/main/DOME/ShareableEntity.schema.json"
