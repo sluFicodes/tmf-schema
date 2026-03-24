@@ -1,24 +1,27 @@
-{
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "#ExternallyBilled",
-  "title": "ExternallyBilled",
-  "description": "DOME extensions for TMForum Product Offerings that are billed through a third party billing engine",
-  "additionalProperties": false,
-  "allOf": [
-    {
-      "$ref": "https://raw.githubusercontent.com/DOME-Marketplace/tmf-api/refs/heads/main/DOME/ShareableEntity.schema.json"
-    },
-    {
-      "type": "object",
-      "properties": {
-        "pricingLogicAlgorithm": {
-          "type": "array",
-          "items": {
-            "$ref": "https://raw.githubusercontent.com/DOME-Marketplace/tmf-api/refs/heads/main/schemas/Product/PricingLogicAlgorithm.schema.json"
-          },
-          "description": "The PricingLogicAlgorithm entity represents an instantiation of an interface specification to external rating function (without a modeled behavior in SID). Some of the parameters of the interface definition may be already set (such as price per unit) and some may be gathered during the rating process from the event (such as call duration) or from ProductCharacteristicValues (such as assigned bandwidth)."
-        }
-      }
-    }
-  ]
-}
+{                                                                                                                                                                                                       
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "#ExternallyBilled",                                                                                                                                                                           
+    "title": "ExternallyBilled",                                                                                                                                                                          
+    "description": "DOME extensions for TMForum Product Offerings that are billed through a third party billing engine",                                                                                  
+    "allOf": [                                                                                                                                                                                            
+      {           
+        "$ref": "https://raw.githubusercontent.com/DOME-Marketplace/tmf-api/refs/heads/main/DOME/ShareableEntity.schema.json"                                                                             
+      },                                                                                                                                                                                                  
+      {
+        "$ref": "https://tmf-open-api-table-documents.s3.eu-west-1.amazonaws.com/OpenApiTable/TMF620_Product_Catalog/4.1.0/swagger/TMF620_Product_Catalog_Management_API_v4.1.0_swagger.json#/definitions/
+  ProductOffering"                                                                                                                                                                                        
+      },
+      {                                                                                                                                                                                                   
+        "type": "object",
+        "properties": {                                                                                                                                                                                   
+          "pricingLogicAlgorithm": {
+            "type": "array",                                                                                                                                                                              
+            "items": {                                                                                                                                                                                    
+              "$ref": "https://raw.githubusercontent.com/DOME-Marketplace/tmf-api/refs/heads/main/schemas/Product/PricingLogicAlgorithm.schema.json"
+            }                                                                                                                                                                                             
+          }       
+        }                                                                                                                                                                                                 
+      }           
+    ],
+    "unevaluatedProperties": false
+  }
