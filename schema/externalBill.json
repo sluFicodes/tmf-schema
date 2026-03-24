@@ -8,8 +8,7 @@
         "$ref": "https://raw.githubusercontent.com/DOME-Marketplace/tmf-api/refs/heads/main/DOME/ShareableEntity.schema.json"                                                                             
       },                                                                                                                                                                                                  
       {
-        "$ref": "https://tmf-open-api-table-documents.s3.eu-west-1.amazonaws.com/OpenApiTable/TMF620_Product_Catalog/4.1.0/swagger/TMF620_Product_Catalog_Management_API_v4.1.0_swagger.json#/definitions/
-  ProductOffering"                                                                                                                                                                                        
+        "$ref": "https://tmf-open-api-table-documents.s3.eu-west-1.amazonaws.com/OpenApiTable/TMF620_Product_Catalog/4.1.0/swagger/TMF620_Product_Catalog_Management_API_v4.1.0_swagger.json#/definitions/ProductOffering"                                                                                                                                                                                        
       },
       {                                                                                                                                                                                                   
         "type": "object",
