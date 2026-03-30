@@ -14,7 +14,7 @@
             "type": "array",
             "description": "List of related parties",
             "items": {
-                "$ref": "../schemas/EngagedParty/RelatedParty.schema.json#RelatedParty"
+                "$ref": "https://raw.githubusercontent.com/DOME-Marketplace/tmf-api/refs/heads/main/schemas/EngagedParty/RelatedParty.schema.json"
             }
         }
     },
