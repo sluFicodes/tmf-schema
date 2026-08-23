@@ -24,6 +24,18 @@
         ],
         "additionalProperties": false
       }
+    },
+    "relatedParty": {
+      "type": "array",
+      "description": "List of related parties",
+      "items": {
+        "$ref": "https://raw.githubusercontent.com/DOME-Marketplace/tmf-api/refs/heads/main/schemas/EngagedParty/RelatedParty.schema.json#RelatedParty"
+      }
+    },
+    "lastUpdate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date and time of the last update"
     }
   },
   "additionalProperties": false
